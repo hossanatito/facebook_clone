@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iconify/3.1.0/iconify.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon" />
+    <title>Home - Facebook</title>
+  </head>
+
+  <body class="bg-slate-200">
+    <!-- New Message Widget  -->
+    <span
+      class="p-4 rounded-full bottom-5 right-4 fixed z-40 bg-white shadow-full"
+    >
+      <i class="fa-solid fa-pen-to-square text-sm px-1"></i>
+    </span>
+
+    <!-- Navigation -->
+    <nav
+      class="flex h-14 w-full px-2 sm:px-10 bg-white shadow-md fixed w-full justify-between items-center z-40"
+    >
+      <div class="flex">
+        <img
+          src="images/facebook.png"
+          class="h-8 cursor-pointer"
+          alt="logo-main"
+        />
+        <button class="bg-slate-200 rounded-full py-1.5 block sm:hidden">
+          <i
+            class="fa-solid fa-magnifying-glass text-sm px-3 text-zinc-500"
+          ></i>
+        </button>
+      </div>
+      <!-- Search input -->
+      <div class="hidden sm:block bg-slate-200 rounded-full py-1">
+        <form class="flex items-center">
+          <i
+            class="fa-solid fa-magnifying-glass text-sm px-4 text-zinc-500"
+          ></i>
+          <input
+            type="text"
+            placeholder="Search Facebook"
+            class="outline-none placeholder:text-sm bg-slate-200 py-1 md:pr-20 lg:pr-60 rounded-full"
+          />
+        </form>
+      </div>
+      <!-- 3 Icons right -->
+      <div>
+        <ul class="flex items-center space-x-2">
+          <li>
+            <i
+              class="bg-slate-200 hover:bg-slate-300 cursor-pointer p-3 rounded-full fa-brands fa-facebook-messenger"
+            ></i>
+          </li>
+          <li>
+            <i
+              class="bg-slate-200 hover:bg-slate-300 cursor-pointer p-3 rounded-full fa-solid fa-bell"
+            ></i>
+          </li>
+          <li>
+            <img
+              src="images/photo.jpg"
+              alt=""
+              class="h-10 rounded-full border-white"
+            />
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main Body -->
+
+    <section class="grid grid-cols-4 gap-2 pt-16">
+      <!-- Aside -->
+      <div
+        class="col-span-1 p-2 h-screen overflow-hidden hidden md:block hover:overflow-y-scroll"
+      >
+        <ul class="list-none font-semibold text-md pl-1">
+          <!-- Side Menu Items -->
+          <li class="py-0.5 px-1 rounded-xl hover:bg-slate-300/40">
+            <a href="" class="flex items-center">
+              <span class="p-1 rounded-full mr-2"
+                ><i class="fa-solid fa-house text-lg text-blue-500"></i></span
+              >Home</a
+            >
+          </li>
+          <!--  -->
+          <li class="py-0.5 px-1 rounded-xl hover:bg-slate-300/40">
+            <a href="" class="flex items-center space-x-4"
+              ><span class="py-1 mr-2"
+                ><img
+                  src="images/photo.jpg"
+                  class="h-6 rounded-full m-1"
+                /> </span
+              >Hossana Tito</a
+            >
+          </li>
+          <!--  -->
+          <hr class="bg-slate-300/80 h-0.5 my-1" />
+          <!--  -->
+          <li class="py-0.5 px-1 rounded-xl hover:bg-slate-300/40">
+            <a href="" class="flex items-center space-x-4"
+              ><span class="p-1 rounded-full mr-2">
+                <i class="fa-solid fa-tv text-lg text-blue-500"></i></span
+              >Watch</a
+            >
+          </li>
+          <!--  -->
+          <li class="py-0.5 px-1 rounded-xl hover:bg-slate-300/40">
+            <a href="" class="flex items-center space-x-4"
+              ><span class="p-1 rounded-full mr-2"
+                ><i class="fa-solid fa-shop text-lg text-blue-500"></i></span
+              >Marketplace</a
+            >
+          </li>
+          <!--  -->
+          <li class="py-0.5 px-1 rounded-xl hover:bg-slate-300/40">
+            <a href="" class="flex items-center space-x-4"
+              ><span class="p-1 rounded-full mr-2"
+                ><i class="fa-solid fa-gamepad text-lg text-blue-500"></i></span
+              >Gaming</a
+            >
+          </li>
+          <!--  -->
+          <li class="py-0.5 px-1 rounded-xl hover:bg-slate-300/40">
+            <a href="" class="flex items-center space-x-4"
+              ><span class="p-1 rounded-full mr-2 bg-slate-300/60">
+                <i
+                  class="fa-regular fa-square-plus text-lg text-gray-500 px-1"
+                ></i></span
+              >See all</a
+            >
+          </li>
+          <!--  -->
+          <hr class="bg-slate-300/80 h-0.5 my-2.5" />
+          <!--  -->
+          <li class="py-0.5 px-1 rounded-xl hover:bg-slate-300/40">
+            <a href="" class="flex items-center space-x-4"
+              ><span class="py-0.5 mr-2"
+                ><img src="images/1.jpg" class="h-6 rounded-full m-1" /> </span
+              >Edo Innovates Group</a
+            >
+          </li>
+          <!--  -->
+          <li class="py-0.5 px-1 rounded-xl hover:bg-slate-300/40">
+            <a href="" class="flex items-center space-x-4"
+              ><span class="py-0.5 mr-2"
+                ><img src="images/2.jpg" class="h-6 rounded-full m-1" /> </span
+              >Innovates Geeks Cohort 1</a
+            >
+          </li>
+          <!--  -->
+          <li class="py-0.5 px-1 rounded-xl hover:bg-slate-300/40">
+            <a href="" class="flex items-center space-x-4"
+              ><span class="py-0.5 mr-2"
+                ><img src="images/3.jpg" class="h-6 rounded-full m-1" /> </span
+              >Groups Network</a
+            >
+          </li>
+
+          <li class="py-0.5 px-1 rounded-xl hover:bg-slate-300/40">
+            <a href="" class="flex items-center space-x-4"
+              ><span class="p-1 rounded-full mr-2 bg-slate-300/60"
+                ><i
+                  class="fa-solid fa-people-group text-lg text-grey-500"
+                ></i></span
+              >See all groups</a
+            >
+          </li>
+          <!--  -->
+          <hr class="bg-slate-300/80 h-0.5 my-2.5" />
+          <!--  -->
+          <li class="py-0.5 px-1 rounded-xl hover:bg-slate-300/40">
+            <a href="" class="flex items-center space-x-4"
+              ><span class="py-0.5 mr-2"
+                ><img
+                  src="images/photo.jpg"
+                  class="h-6 rounded-full m-1"
+                /> </span
+              >Paramount Update Page</a
+            >
+          </li>
+          <!--  -->
+          <li class="py-0.5 px-1 rounded-xl hover:bg-slate-300/40">
+            <a href="" class="flex items-center space-x-4"
+              ><span class="py-0.5 mr-2"
+                ><img
+                  src="images/photo.jpg"
+                  class="h-6 rounded-full m-1"
+                /> </span
+              >Candy Crush Page</a
+            >
+          </li>
+          <!--  -->
+          <li class="py-0.5 px-1 rounded-xl hover:bg-slate-300/40">
+            <a href="" class="flex items-center space-x-4"
+              ><span class="py-0.5 mr-2"
+                ><img
+                  src="images/photo.jpg"
+                  class="h-6 rounded-full m-1"
+                /> </span
+              >WebDev Page</a
+            >
+          </li>
+          <!--  -->
+          <li class="py-0.5 px-1 rounded-xl hover:bg-slate-300/40">
+            <a href="" class="flex items-center space-x-4"
+              ><span class="py-0.5 mr-2"
+                ><img
+                  src="images/photo.jpg"
+                  class="h-6 rounded-full m-1"
+                /> </span
+              >Edo Cohort 1 Page</a
+            >
+          </li>
+          <!--  -->
+          <li class="py-0.5 px-1 rounded-xl hover:bg-slate-300/40">
+            <a href="" class="flex items-center space-x-4"
+              ><span class="py-0.5 mr-2"
+                ><img
+                  src="images/photo.jpg"
+                  class="h-6 rounded-full m-1"
+                /> </span
+              >DavidUk Ultra Page</a
+            >
+          </li>
+          <!--  -->
+          <li class="py-0.5 px-1 rounded-xl hover:bg-slate-300/40">
+            <a href="" class="flex items-center space-x-4"
+              ><span class="py-0.5 mr-2"
+                ><img
+                  src="images/photo.jpg"
+                  class="h-6 rounded-full m-1"
+                /> </span
+              >Manchester United Page</a
+            >
+          </li>
+          <!--  -->
+          <li class="py-0.5 px-1 rounded-xl hover:bg-slate-300/40">
+            <a href="" class="flex items-center space-x-4"
+              ><span class="py-0.5 mr-2"
+                ><img
+                  src="images/photo.jpg"
+                  class="h-6 rounded-full m-1"
+                /> </span
+              >Facebook Page</a
+            >
+          </li>
+        </ul>
+        <ul
+          class="flex flex-wrap px-2 text-xs mt-5 space-x-2 leading-5 font-semibold text-gray-500 mr-2"
+        >
+          <li><a href="">Privacy</a></li>
+          <li><a href="">Terms</a></li>
+          <li><a href="">Advertising</a></li>
+          <li><a href="">Ad Choices</a></li>
+          <li><a href="">Cookies</a></li>
+          <li><a href="">More</a></li>
+          <li>Meta &copy; 2023</li>
+        </ul>
+      </div>
+
+      <!-- Main Section -->
+      <div class="col-span-4 md:col-span-2 p-2 w-5/6 mx-auto mt-2 space-y-4">
+        <!-- Reels Section Sub Section -->
+        <section class="bg-white px-0.5 shadow-md rounded-md">
+          <div class="flex m-0.5 p-1.5 h-14 justify-around">
+            <button
+              class="flex justify-center items-center space-x-2 text-md text-blue-600 border-b-4 border-blue-600 pb-1.5 -mb-2 w-1/2"
+            >
+              <i class="fa-solid fa-book-open text-xl"></i><span>Stories</span>
+            </button>
+            <button
+              class="flex justify-center items-center space-x-2 text-md text-gray-600 hover:bg-slate-200/40 hover:rounded-md w-1/2"
+            >
+              <i class="fa-solid fa-clapperboard text-xl"></i><span>Reels</span>
+            </button>
+          </div>
+
+          <!-- Reels/Stories -->
+          <div
+            class="flex m-2 space-x-2 px-2 py-4 hover:overflow-x-auto overflow-hidden relative"
+          >
+            <!-- Next Icon -->
+            <i
+              class="fa-solid fa-chevron-right hover:bg-gray-200 hover:text-slate-500 absolute right-2 top-24 px-5 py-4 bg-white rounded-full text-sm cursor-pointer shadow-lg z-20"
+            ></i>
+            <!--  -->
+            <div
+              class="flex-none w-32 h-48 bg-white text-center overflow-hidden rounded-lg relative shadow-md pointer-cursor"
+            >
+              <img src="images/photo.jpg" class="h-32" />
+              <div class="absolute bottom-10 left-12">
+                <i
+                  class="fa-sharp fa-solid fa-circle-plus text-3xl bg-white p-0.5 rounded-full text-blue-600"
+                ></i>
+              </div>
+              <div class="pt-7 pb-2">
+                <p class="text-sm font-semibold">Create Story</p>
+              </div>
+            </div>
+            <!-- Reel 1 -->
+            <div
+              class="flex-none w-32 h-48 bg-white text-center rounded-lg relative shadow-md pointer-cursor"
+              style="
+                background-image: url('images/reel1.jpg');
+                background-size: cover;
+              "
+            >
+              <div class="absolute top-2 left-2">
+                <img
+                  src="images/photo.jpg"
+                  class="h-9 rounded-full p-1 bg-blue-600 z-0"
+                  alt=""
+                />
+              </div>
+              <div
+                class="h-full w-full bg-black/30 hover:bg-black/50 p-4 z-12 rounded-md cursor-pointer"
+              ></div>
+              <div
+                class="absolute bottom-2 left-2 text-xs text-white cursor-pointer"
+              >
+                <p class="text-xs font-semibold">
+                  Random text <br />
+                  Create Story
+                </p>
+              </div>
+            </div>
+            <!-- Reel 1 end -->
+
+            <!-- Reel 2 -->
+            <div
+              class="flex-none w-32 h-48 bg-white text-center rounded-lg relative shadow-md pointer-cursor"
+              style="
+                background-image: url('images/reel2.jpg');
+                background-size: cover;
+              "
+            >
+              <div class="absolute top-2 left-2">
+                <img
+                  src="images/photo.jpg"
+                  class="h-9 rounded-full p-1 bg-blue-600 z-0"
+                  alt=""
+                />
+              </div>
+              <div
+                class="h-full w-full bg-black/30 hover:bg-black/50 p-4 z-12 rounded-md cursor-pointer"
+              ></div>
+              <div
+                class="absolute bottom-2 left-2 text-xs text-white cursor-pointer"
+              >
+                <p class="text-xs font-semibold">
+                  Random text <br />
+                  Create Story
+                </p>
+              </div>
+            </div>
+            <!-- Reel 2 end -->
+
+            <!-- Reel 3 -->
+            <div
+              class="flex-none w-32 h-48 bg-white text-center rounded-lg relative shadow-md pointer-cursor"
+              style="
+                background-image: url('images/reel3.jpg');
+                background-size: cover;
+              "
+            >
+              <div class="absolute top-2 left-2">
+                <img
+                  src="images/photo.jpg"
+                  class="h-9 rounded-full p-1 bg-blue-600 z-0"
+                  alt=""
+                />
+              </div>
+              <div
+                class="h-full w-full bg-black/30 hover:bg-black/50 p-4 z-12 rounded-md cursor-pointer"
+              ></div>
+              <div
+                class="absolute bottom-2 left-2 text-xs text-white cursor-pointer"
+              >
+                <p class="text-xs font-semibold">
+                  Random text <br />
+                  Create Story
+                </p>
+              </div>
+            </div>
+            <!-- Reel 3 end -->
+
+            <!-- Reel 4 -->
+            <div
+              class="flex-none w-32 h-48 bg-white text-center rounded-lg relative shadow-md pointer-cursor"
+              style="
+                background-image: url('images/reel4.jpg');
+                background-size: cover;
+              "
+            >
+              <div class="absolute top-2 left-2">
+                <img
+                  src="images/photo.jpg"
+                  class="h-9 rounded-full p-1 bg-blue-600 z-0"
+                  alt=""
+                />
+              </div>
+              <div
+                class="h-full w-full bg-black/30 hover:bg-black/50 p-4 z-12 rounded-md cursor-pointer"
+              ></div>
+              <div
+                class="absolute bottom-2 left-2 text-xs text-white cursor-pointer"
+              >
+                <p class="text-xs font-semibold">
+                  Random text <br />
+                  Create Story
+                </p>
+              </div>
+            </div>
+            <!-- Reel 5 end -->
+
+            <!-- Reel 6 -->
+            <div
+              class="flex-none w-32 h-48 bg-white text-center rounded-lg relative shadow-md pointer-cursor"
+              style="
+                background-image: url('images/reel6.jpg');
+                background-size: cover;
+              "
+            >
+              <div class="absolute top-2 left-2">
+                <img
+                  src="images/photo.jpg"
+                  class="h-9 rounded-full p-1 bg-blue-600 z-0"
+                  alt=""
+                />
+              </div>
+              <div
+                class="h-full w-full bg-black/30 hover:bg-black/50 p-4 z-12 rounded-md cursor-pointer"
+              ></div>
+              <div
+                class="absolute bottom-2 left-2 text-xs text-white cursor-pointer"
+              >
+                <p class="text-xs font-semibold">
+                  Random text <br />
+                  Create Story
+                </p>
+              </div>
+            </div>
+            <!-- Reel 6 end -->
+
+            <!-- Reel 7 -->
+            <div
+              class="flex-none w-32 h-48 bg-white text-center rounded-lg relative shadow-md pointer-cursor"
+              style="
+                background-image: url('images/reel7.jpg');
+                background-size: cover;
+              "
+            >
+              <div class="absolute top-2 left-2">
+                <img
+                  src="images/photo.jpg"
+                  class="h-9 rounded-full p-1 bg-blue-600 z-0"
+                  alt=""
+                />
+              </div>
+              <div
+                class="h-full w-full bg-black/30 hover:bg-black/50 p-4 z-12 rounded-md cursor-pointer"
+              ></div>
+              <div
+                class="absolute bottom-2 left-2 text-xs text-white cursor-pointer"
+              >
+                <p class="text-xs font-semibold">
+                  Random text <br />
+                  Create Story
+                </p>
+              </div>
+            </div>
+            <!-- Reel 7 end -->
+
+            <!-- Reel 8 -->
+            <div
+              class="flex-none w-32 h-48 bg-white text-center rounded-lg relative shadow-md pointer-cursor"
+              style="
+                background-image: url('images/reel8.jpg');
+                background-size: cover;
+              "
+            >
+              <div class="absolute top-2 left-2">
+                <img
+                  src="images/photo.jpg"
+                  class="h-9 rounded-full p-1 bg-blue-600 z-0"
+                  alt=""
+                />
+              </div>
+              <div
+                class="h-full w-full bg-black/30 hover:bg-black/50 p-4 z-12 rounded-md cursor-pointer"
+              ></div>
+              <div
+                class="absolute bottom-2 left-2 text-xs text-white cursor-pointer"
+              >
+                <p class="text-xs font-semibold">
+                  Random text <br />
+                  Create Story
+                </p>
+              </div>
+            </div>
+            <!-- Reel8 end -->
+          </div>
+        </section>
+
+        <!-- Whats on your Mind Sub Section -->
+        <section class="bg-white px-4 shadow-md rounded-md">
+          <div class="flex space-x-2 items-center pt-3">
+            <img src="images/photo.jpg" alt="" class="h-10 rounded-full" />
+            <input
+              class="outline-none w-full h-9 bg-slate-200/50 rounded-full py-2 px-3"
+              type="search"
+              placeholder="what's on your mind"
+            />
+          </div>
+          <!-- Hrnzntl Rle -->
+          <div class="px-5"><hr class="bg-slate-300/3 h-0.5 mt-2.5" /></div>
+
+          <!-- three icons -->
+          <div class="flex justify-around items-center p-2 space-x-2">
+            <div class="w-1/3">
+              <a
+                href=""
+                class="flex items-center justify-center text-sm hover:bg-slate-400/20 py-1 rounded-md"
+              >
+                <span class="font-semibold"
+                  ><i
+                    class="fa-solid fa-video text-2xl text-red-600 mr-2"
+                  ></i></span
+                >Live video</a
+              >
+            </div>
+            <div class="w-1/3">
+              <a
+                href=""
+                class="flex items-center justify-center text-sm hover:bg-slate-400/20 py-1 rounded-md"
+              >
+                <span class="flex font-semibold"
+                  ><i
+                    class="fa-solid fa-photo-film text-2xl text-green-400 mr-2"
+                  ></i></span
+                >Photo/Video</a
+              >
+            </div>
+            <div class="w-1/3">
+              <a
+                href=""
+                class="flex items-center justify-center text-sm hover:bg-slate-400/20 py-1 rounded-md"
+              >
+                <span class="flex font-semibold"
+                  ><i
+                    class="fa-solid fa-face-smile text-2xl text-yellow-200 mr-2"
+                  ></i></span
+                >Feeling/Activity</a
+              >
+            </div>
+          </div>
+        </section>
+
+        <!-- Posts Section -->
+        <section class="bg-white px-4 shadow-md rounded-md">
+          <div class="flex items-center justify-between pt-4 pl-2">
+            <h2 class="font-semibold">People you may know</h2>
+            <i class="fa-solid fa-ellipsis px-1"></i>
+          </div>
+          <!-- People You May Know -->
+          <div
+            class="flex m-1 space-x-1 px-2 py-4 hover:overflow-x-auto overflow-hidden relative"
+          >
+            <!-- Next Icon -->
+            <i
+              class="fa-solid fa-chevron-right hover:bg-gray-300 hover:text-slate-900 absolute right-2 top-24 px-5 py-4 bg-white rounded-full text-sm cursor-pointer shadow-full"
+            ></i>
+
+            <!-- Person 1 -->
+            <div
+              class="flex-none w-52 bg-white overflow-hidden rounded-lg shadow-md pointer-cursor pb-1"
+            >
+              <img src="images/person1.jpg" class="w-52" />
+              <div class="pt-1 pb-6 px-2.5 text-left">
+                <p class="text-lg font-semibold hover:underline cursor-pointer">
+                  Jane Doe
+                </p>
+              </div>
+              <div
+                class="flex m-1 rounded-lg bg-blue-600/10 hover:bg-blue-500/30 py-1.5"
+              >
+                <button
+                  class="flex space-x-1 w-full items-center justify-center"
+                >
+                  <i
+                    class="fa-solid fa-user-plus text-blue-600 font-semibold"
+                  ></i>
+                  <p class="text-blue-600 text-sm font-semibold">Add Friend</p>
+                </button>
+              </div>
+            </div>
+            <!-- Person 2 -->
+            <div
+              class="flex-none w-52 bg-white overflow-hidden rounded-lg shadow-md pointer-cursor pb-1"
+            >
+              <img src="images/person2.jpg" class="w-52" />
+              <div class="pt-1 pb-6 px-2.5 text-left">
+                <p class="text-lg font-semibold hover:underline cursor-pointer">
+                  Daniel Rice
+                </p>
+              </div>
+              <div
+                class="flex m-1 rounded-lg bg-blue-600/10 hover:bg-blue-500/30 py-1.5"
+              >
+                <button
+                  class="flex space-x-1 w-full items-center justify-center"
+                >
+                  <i
+                    class="fa-solid fa-user-plus text-blue-600 font-semibold"
+                  ></i>
+                  <p class="text-blue-600 text-sm font-semibold">Add Friend</p>
+                </button>
+              </div>
+            </div>
+            <!-- Person 3 -->
+            <div
+              class="flex-none w-52 bg-white overflow-hidden rounded-lg shadow-md pointer-cursor pb-1"
+            >
+              <img src="images/person3.jpg" class="w-52" />
+              <div class="pt-1 pb-6 px-2.5 text-left">
+                <p class="text-lg font-semibold hover:underline cursor-pointer">
+                  Melissa Stew
+                </p>
+              </div>
+              <div
+                class="flex m-1 rounded-lg bg-blue-600/10 hover:bg-blue-500/30 py-1.5"
+              >
+                <button
+                  class="flex space-x-1 w-full items-center justify-center"
+                >
+                  <i
+                    class="fa-solid fa-user-plus text-blue-600 font-semibold"
+                  ></i>
+                  <p class="text-blue-600 text-sm font-semibold">Add Friend</p>
+                </button>
+              </div>
+            </div>
+            <!-- Person 4 -->
+            <div
+              class="flex-none w-52 bg-white overflow-hidden rounded-lg shadow-md pointer-cursor pb-1"
+            >
+              <img src="images/person4.jpg" class="w-52" />
+              <div class="pt-1 pb-6 px-2.5 text-left">
+                <p class="text-lg font-semibold hover:underline cursor-pointer">
+                  Jennifer Bole
+                </p>
+              </div>
+              <div
+                class="flex m-1 rounded-lg bg-blue-600/10 hover:bg-blue-500/30 py-1.5"
+              >
+                <button
+                  class="flex space-x-1 w-full items-center justify-center"
+                >
+                  <i
+                    class="fa-solid fa-user-plus text-blue-600 font-semibold"
+                  ></i>
+                  <p class="text-blue-600 text-sm font-semibold">Add Friend</p>
+                </button>
+              </div>
+            </div>
+            <!-- Person 5 -->
+            <div
+              class="flex-none w-52 bg-white overflow-hidden rounded-lg shadow-md pointer-cursor pb-1"
+            >
+              <img src="images/person5.jpg" class="w-52" />
+              <div class="pt-1 pb-6 px-2.5 text-left">
+                <p class="text-lg font-semibold hover:underline cursor-pointer">
+                  Jeremy Hawkings
+                </p>
+              </div>
+              <div
+                class="flex m-1 rounded-lg bg-blue-600/10 hover:bg-blue-500/30 py-1.5"
+              >
+                <button
+                  class="flex space-x-1 w-full items-center justify-center"
+                >
+                  <i
+                    class="fa-solid fa-user-plus text-blue-600 font-semibold"
+                  ></i>
+                  <p class="text-blue-600 text-sm font-semibold">Add Friend</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Second Aside -->
+      <div class="col-span-1 p-2 mr-4 hidden md:block">
+        <div class="flex items-center justify-between mb-2">
+          <h3 class="font-semibold">Your Pages and Profiles</h3>
+          <i
+            class="fa-solid fa-ellipsis p-2 rounded-full hover:bg-slate-300/30"
+          ></i>
+        </div>
+        <!--  -->
+        <div class="py-0.5 rounded-xl hover:bg-slate-300/40">
+          <a href="" class="flex items-center space-x-4 text-semibold"
+            ><span class="py-0.5 mr-2"
+              ><img
+                src="images/photo.jpg"
+                class="h-6 rounded-full m-1"
+              /> </span
+            >Facebook Page</a
+          >
+        </div>
+        <!--  -->
+        <div class="space-y-0.5 ml-1.5">
+          <!-- 1 -->
+          <div class="px-1 rounded-xl hover:bg-slate-300/40 opacity-70">
+            <a
+              href=""
+              class="flex items-center space-x-4 text-sm font-semibold text-slate-500"
+              ><span class="px-1.5 py-1.5 rounded-full mr-2"
+                ><i class="fa-regular fa-bell text-xl text-grey-500"></i></span
+              >3 Notifications</a
+            >
+          </div>
+          <!-- 2 -->
+          <div class="px-1 rounded-xl hover:bg-slate-300/40 opacity-70">
+            <a
+              href=""
+              class="flex items-center space-x-4 text-sm font-semibold text-slate-500"
+              ><span class="px-1.5 py-1.5 rounded-full mr-2"
+                ><i
+                  class="fa-regular fa-circle-user text-xl text-grey-500"
+                ></i></span
+              >Switich into Page</a
+            >
+          </div>
+          <!-- 3 -->
+          <div class="px-1 rounded-xl hover:bg-slate-300/40 opacity-70">
+            <a
+              href=""
+              class="flex items-center space-x-4 text-sm font-semibold text-slate-500"
+              ><span class="px-1.5 py-1.5 rounded-full mr-2"
+                ><i
+                  class="fa-solid fa-bullhorn text-xl text-grey-500"
+                ></i></span
+              >Create Promotion</a
+            >
+          </div>
+          <div class="pb-3"></div>
+
+          <!--  -->
+          <div class="flex mb- items-center justify-between mb-2">
+            <h3 class="font-semibold">Birthdays</h3>
+          </div>
+          <div class="py-0.5 m rounded-xl hover:bg-slate-300/40">
+            <a
+              href=""
+              class="flex flex-wrap items-center space-x-4 text-sm text-semibold"
+              ><span class="py-0.5 mr-2"
+                ><i
+                  class="fa-solid fa-gift text-3xl text-blue-600 p-2"
+                ></i></span
+              >Hossana Tito's Birthday <br />
+              is Today</a
+            >
+          </div>
+
+          <div class="pb-3"></div>
+          <!--  -->
+          <div class="flex mb- items-center justify-between mb-2">
+            <h3 class="font-semibold">Contacts</h3>
+            <div class="flex items-center space-x-5 cursor-pointer opacity-50">
+              <i
+                class="fa-solid fa-ellipsis p-2 rounded-full hover:bg-slate-300/30"
+              ></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-solid fa-video"></i>
+            </div>
+          </div>
+
+          <!-- Contacts Online -->
+          <ul class="list-none font-semibold text-md pl-1">
+            <!-- Side Menu Items -->
+            <li class="py-0.5 px-1 rounded-xl hover:bg-slate-300/40 opacity-30">
+              <a href="" class="flex items-center space-x-4"
+                ><span class="py-1 mr-2"
+                  ><img
+                    src="images/reeel4.jpg"
+                    class="h-6 rounded-full m-1"
+                  /> </span
+                >Eronmwon Diana</a
+              >
+            </li>
+            <li class="py-0.5 px-1 rounded-xl hover:bg-slate-300/40 opacity-30">
+              <a href="" class="flex items-center space-x-4"
+                ><span class="py-1 mr-2"
+                  ><img
+                    src="images/reel7.jpg"
+                    class="h-6 rounded-full m-1"
+                  /> </span
+                >Ivie TroubleMaker</a
+              >
+            </li>
+            <li class="py-0.5 px-1 rounded-xl hover:bg-slate-300/40 opacity-30">
+              <a href="" class="flex items-center space-x-4"
+                ><span class="py-1 mr-2"
+                  ><img
+                    src="images/photo.jpg"
+                    class="h-6 rounded-full m-1"
+                  /> </span
+                >Jane Onabor</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

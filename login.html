@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Facebook - Login</title>
+  </head>
+  <body>
+    <section class="bg-gray-200 flex p-20 h-screen items-center gap-5">
+      <!-- Part 1 -->
+      <div class="px-10 text-left">
+        <img src="images/facebook.png" alt="" class="h-16" />
+        <h1 class="text-2xl">
+          Facebook helps you connect and share with the people in your life.
+        </h1>
+      </div>
+      <!-- Part 2 -->
+      <div class="px-10 w-5/6 text-center">
+        <div class="bg-white p-5 rounded-lg">
+          <form class="flex flex-col space-y-5">
+            <input
+              class="h-12 border-2 p-2"
+              type="text"
+              placeholder="Email address or phone number"
+              required
+            />
+            <input
+              class="h-12 p-2 border-2"
+              type="password"
+              placeholder="Password"
+            />
+            <button
+              class="h-12 bg-blue-500 hover:bg-blue-600 text-white font-bold rounded-md"
+              type="submit"
+            >
+              <a href="./home.html">Login</a>
+            </button>
+          </form>
+          <p class="my-3 text-sm text-blue-600">
+            <a href="#">Forgotten Password?</a>
+          </p>
+          <hr class="my-4" />
+          <button
+            class="py-2 px-3 bg-green-400 :bg-green-500 text-white font-bold rounded-md"
+          >
+            Create New Account
+          </button>
+        </div>
+        <br />
+        <span class="text-sm"
+          ><a href="#" class="font-bold">Create a Page</a> for a celebrity,
+          brand or business.</span
+        >
+      </div>
+    </section>
+    <footer class="mx-24 my-9">
+      <div class="flex flex-col items-center text-gray-500">
+        <ul class="flex space-x-3 text-sm">
+          <li><a href="#">English (UK)</a></li>
+          <li><a href="#">Hausa</a></li>
+          <li><a href="#">Français (France)</a></li>
+          <li><a href="#">Português (Brasil)</a></li>
+          <li><a href="#">Español</a></li>
+          <li><a href="">العربية</a></li>
+          <li><a href="#">Bahasa Indonesia</a></li>
+          <li><a href="#">Deutsch</a></li>
+          <li><a href="#">日本語</a></li>
+          <li><a href="#">Italiano</a></li>
+          <li><a href="#">हिन्दी</a></li>
+        </ul>
+        <hr class="py-5" />
+        <p class="text-sm">Meta &copy; 2022</p>
+      </div>
+    </footer>
+  </body>
+</html>
